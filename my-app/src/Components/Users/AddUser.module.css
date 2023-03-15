@@ -1,0 +1,45 @@
+
+
+.user-form{
+    font-size: 1.8rem;
+    padding: 1.6rem 3.2rem;
+    color: #333;
+    border: 1px solid #aaa;
+    border-radius: 11px;
+    background-color: #eee;
+}
+
+.user-form-control{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.user-form-control label{
+    font-weight: 600;
+}
+
+.user-form-control input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 9px;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.user-form-actions{
+    text-align: center;
+}
+
+/* .usse-form-actions button{
+    padding: 0.8rem 1.6rem;
+    border: 1px solid #aaa;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 11px;
+    cursor: pointer;
+    background-color: white;
+} */

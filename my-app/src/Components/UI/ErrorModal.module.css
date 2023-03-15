@@ -1,0 +1,38 @@
+
+.drop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.571);
+}
+
+.modal{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 1.6rem 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.modal-header{
+    color: red;
+}
+
+.modal-content{
+    font-weight: 500;
+}
+
+.modal-footer{}
